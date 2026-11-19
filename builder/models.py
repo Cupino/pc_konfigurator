@@ -12,7 +12,7 @@ class CPU(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class Motherboard(models.Model):
@@ -25,7 +25,7 @@ class Motherboard(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class RAM(models.Model):
@@ -38,7 +38,7 @@ class RAM(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class GPU(models.Model):
@@ -53,7 +53,7 @@ class GPU(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class CPUCooler(models.Model):
@@ -67,7 +67,7 @@ class CPUCooler(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class Case(models.Model):
@@ -80,7 +80,7 @@ class Case(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class Storage(models.Model):
@@ -91,7 +91,7 @@ class Storage(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
 
 
 class PSU(models.Model):
@@ -103,4 +103,4 @@ class PSU(models.Model):
     image_url = models.URLField(blank=True, null=True)
 
     def __str__(self):
-        return self.name
+        return f"{self.name} ({self.price} €)"
