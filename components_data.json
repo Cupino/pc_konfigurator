@@ -12,41 +12,53 @@
     {"name": "MSI MAG B650 TOMAHAWK WIFI", "price": 209.90, "socket": "AM5", "ram_type": "DDR5", "ram_slots": 4, "form_factor": "ATX"},
     {"name": "GIGABYTE B650M DS3H", "price": 135.90, "socket": "AM5", "ram_type": "DDR5", "ram_slots": 4, "form_factor": "mATX"},
     {"name": "GIGABYTE B760M DS3H DDR4", "price": 102.90, "socket": "LGA1700", "ram_type": "DDR4", "ram_slots": 4, "form_factor": "mATX"},
-    {"name": "MSI PRO Z790-P WIFI", "price": 215.90, "socket": "LGA1700", "ram_type": "DDR5", "ram_slots": 4, "form_factor": "ATX"}
+    {"name": "MSI PRO Z790-P WIFI", "price": 215.90, "socket": "LGA1700", "ram_type": "DDR5", "ram_slots": 4, "form_factor": "ATX"},
+    {"name": "ASUS PRIME B760-PLUS DDR4", "price": 139.90, "socket": "LGA1700", "ram_type": "DDR4", "ram_slots": 4, "form_factor": "ATX"}
   ],
   "rams": [
     {"name": "Kingston FURY 32GB KIT DDR5 6000MHz CL36", "price": 112.90, "ram_type": "DDR5", "capacity_gb": 32, "module_count": 2, "speed_mhz": 6000},
     {"name": "Corsair Vengeance 32GB KIT DDR5 6000MHz CL30", "price": 124.90, "ram_type": "DDR5", "capacity_gb": 32, "module_count": 2, "speed_mhz": 6000},
     {"name": "G.SKILL 64GB KIT DDR5 6000MHz Trident Z5", "price": 229.90, "ram_type": "DDR5", "capacity_gb": 64, "module_count": 2, "speed_mhz": 6000},
+    {"name": "Patriot Viper Venom 16GB KIT DDR5 5600MHz", "price": 62.90, "ram_type": "DDR5", "capacity_gb": 16, "module_count": 2, "speed_mhz": 5600},
     {"name": "Corsair 16GB KIT DDR4 3200MHz CL16", "price": 41.90, "ram_type": "DDR4", "capacity_gb": 16, "module_count": 2, "speed_mhz": 3200},
     {"name": "Kingston FURY 32GB KIT DDR4 3600MHz CL16", "price": 76.90, "ram_type": "DDR4", "capacity_gb": 32, "module_count": 2, "speed_mhz": 3600}
   ],
   "gpus": [
     {"name": "NVIDIA GeForce RTX 4060 8GB", "price": 299.90, "recommended_psu_wattage": 550, "tdp": 115, "length_mm": 242, "vram_gb": 8, "gaming_score": 68, "productivity_score": 62},
+    {"name": "AMD Radeon RX 7600 8GB", "price": 269.90, "recommended_psu_wattage": 550, "tdp": 165, "length_mm": 240, "vram_gb": 8, "gaming_score": 64, "productivity_score": 55},
     {"name": "AMD Radeon RX 7700 XT 12GB", "price": 439.90, "recommended_psu_wattage": 700, "tdp": 245, "length_mm": 302, "vram_gb": 12, "gaming_score": 80, "productivity_score": 70},
     {"name": "NVIDIA GeForce RTX 4070 SUPER 12GB", "price": 629.90, "recommended_psu_wattage": 650, "tdp": 220, "length_mm": 267, "vram_gb": 12, "gaming_score": 88, "productivity_score": 84},
     {"name": "AMD Radeon RX 7900 GRE 16GB", "price": 589.90, "recommended_psu_wattage": 750, "tdp": 260, "length_mm": 313, "vram_gb": 16, "gaming_score": 89, "productivity_score": 78},
     {"name": "NVIDIA GeForce RTX 4080 SUPER 16GB", "price": 1089.90, "recommended_psu_wattage": 850, "tdp": 320, "length_mm": 336, "vram_gb": 16, "gaming_score": 97, "productivity_score": 96}
   ],
   "coolers": [
+    {"name": "Endorfy Spartan 5", "price": 19.90, "supported_sockets": "AM5, AM4, LGA1700", "max_tdp": 180, "height_mm": 146, "cooler_type": "Air", "radiator_size_mm": 0},
     {"name": "Endorfy Fera 5", "price": 29.90, "supported_sockets": "AM5, AM4, LGA1700", "max_tdp": 220, "height_mm": 155, "cooler_type": "Air", "radiator_size_mm": 0},
     {"name": "DeepCool AK620", "price": 65.90, "supported_sockets": "AM5, AM4, LGA1700", "max_tdp": 260, "height_mm": 160, "cooler_type": "Air", "radiator_size_mm": 0},
+    {"name": "Noctua NH-D15 chromax.black", "price": 114.90, "supported_sockets": "AM5, AM4, LGA1700", "max_tdp": 280, "height_mm": 165, "cooler_type": "Air", "radiator_size_mm": 0},
     {"name": "ARCTIC Liquid Freezer III 240", "price": 76.90, "supported_sockets": "AM5, AM4, LGA1700", "max_tdp": 300, "height_mm": 65, "cooler_type": "Liquid", "radiator_size_mm": 240},
     {"name": "ARCTIC Liquid Freezer III 360", "price": 92.90, "supported_sockets": "AM5, AM4, LGA1700", "max_tdp": 350, "height_mm": 65, "cooler_type": "Liquid", "radiator_size_mm": 360}
   ],
   "cases": [
+    {"name": "Zalman T6 (Kompaktná skriňa)", "price": 34.90, "supported_form_factors": "mATX, ITX", "max_gpu_length_mm": 280, "max_cpu_cooler_height_mm": 160, "max_radiator_size_mm": 0},
     {"name": "Endorfy Signum 300 Air", "price": 65.90, "supported_form_factors": "ATX, mATX, ITX", "max_gpu_length_mm": 350, "max_cpu_cooler_height_mm": 161, "max_radiator_size_mm": 240},
+    {"name": "Montech AIR 903 MAX Black", "price": 79.90, "supported_form_factors": "ATX, mATX, ITX", "max_gpu_length_mm": 400, "max_cpu_cooler_height_mm": 180, "max_radiator_size_mm": 360},
     {"name": "Fractal Design Pop Air Black", "price": 89.90, "supported_form_factors": "ATX, mATX, ITX", "max_gpu_length_mm": 405, "max_cpu_cooler_height_mm": 170, "max_radiator_size_mm": 280},
     {"name": "NZXT H6 Flow Black", "price": 115.90, "supported_form_factors": "ATX, mATX, ITX", "max_gpu_length_mm": 365, "max_cpu_cooler_height_mm": 163, "max_radiator_size_mm": 360},
-    {"name": "Zalman T6 (Kompaktná skriňa)", "price": 34.90, "supported_form_factors": "mATX, ITX", "max_gpu_length_mm": 280, "max_cpu_cooler_height_mm": 160, "max_radiator_size_mm": 0}
+    {"name": "Corsair 4000D Airflow Black", "price": 99.90, "supported_form_factors": "ATX, mATX, ITX", "max_gpu_length_mm": 360, "max_cpu_cooler_height_mm": 170, "max_radiator_size_mm": 360}
   ],
   "storages": [
+    {"name": "Kingston NV2 500GB NVMe M.2", "price": 39.90, "drive_type": "NVMe M.2", "capacity_gb": 500},
     {"name": "Kingston NV2 1TB NVMe M.2", "price": 59.90, "drive_type": "NVMe M.2", "capacity_gb": 1000},
+    {"name": "WD Blue SN580 1TB NVMe M.2", "price": 69.90, "drive_type": "NVMe M.2", "capacity_gb": 1000},
     {"name": "Samsung 990 PRO 1TB NVMe M.2", "price": 99.90, "drive_type": "NVMe M.2", "capacity_gb": 1000},
+    {"name": "Kingston KC3000 2TB NVMe M.2", "price": 144.90, "drive_type": "NVMe M.2", "capacity_gb": 2000},
     {"name": "WD Black SN850X 2TB NVMe M.2", "price": 159.90, "drive_type": "NVMe M.2", "capacity_gb": 2000}
   ],
   "psus": [
+    {"name": "GIGABYTE P550B 550W 80 PLUS Bronze", "price": 46.90, "wattage": 550, "efficiency_rating": "80 PLUS Bronze", "form_factor": "ATX"},
     {"name": "MSI MAG A650BN 650W 80 PLUS Bronze", "price": 58.90, "wattage": 650, "efficiency_rating": "80 PLUS Bronze", "form_factor": "ATX"},
+    {"name": "Be quiet! Pure Power 12 M 750W 80 PLUS Gold", "price": 119.90, "wattage": 750, "efficiency_rating": "80 PLUS Gold", "form_factor": "ATX"},
     {"name": "Corsair RM750e (2023) 750W 80 PLUS Gold", "price": 115.90, "wattage": 750, "efficiency_rating": "80 PLUS Gold", "form_factor": "ATX"},
     {"name": "Seasonic Focus GX-850 850W 80 PLUS Gold", "price": 139.90, "wattage": 850, "efficiency_rating": "80 PLUS Gold", "form_factor": "ATX"},
     {"name": "Corsair RM1000x 1000W 80 PLUS Gold", "price": 179.90, "wattage": 1000, "efficiency_rating": "80 PLUS Gold", "form_factor": "ATX"}
